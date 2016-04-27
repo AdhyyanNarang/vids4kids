@@ -67,6 +67,7 @@ margin: 0px;
 
 .sub-menu{
 	position: fixed;
+	background-color: white; 
 	margin: 0;
 	margin-top: 2.0%;
 	margin-left: -1.9%;
@@ -104,6 +105,13 @@ margin: 0px;
 
 }
 
+
+.menu-item:hover .sub-menu{
+	visibility: visible;
+	opacity:1;
+	transition-delay:0s;
+
+}
 
 
 .menu-item{
